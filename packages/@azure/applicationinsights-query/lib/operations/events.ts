@@ -50,7 +50,7 @@ export class Events {
    * 'availabilityResults', 'performanceCounters', 'customMetrics'
    * @param callback The callback
    */
-  getByType(appId: string, eventType: Models.EventType, callback: msRest.ServiceCallback<Models.EventsResults>): void;
+  getByType(appId: string, eventType: Models.EventType, callback: msRest.ServiceCallback<Models.EventsResults> | Models.EventsGetByTypeOptionalParams): void;
   /**
    * @param appId ID of the application. This is Application ID from the API Access settings blade in
    * the Azure portal.
@@ -100,7 +100,7 @@ export class Events {
    * @param eventId ID of event.
    * @param callback The callback
    */
-  get(appId: string, eventType: Models.EventType, eventId: string, callback: msRest.ServiceCallback<Models.EventsResults>): void;
+  get(appId: string, eventType: Models.EventType, eventId: string, callback: msRest.ServiceCallback<Models.EventsResults> | Models.EventsGetOptionalParams): void;
   /**
    * @param appId ID of the application. This is Application ID from the API Access settings blade in
    * the Azure portal.

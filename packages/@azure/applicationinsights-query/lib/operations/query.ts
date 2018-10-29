@@ -46,7 +46,7 @@ export class Query {
    * syntax](https://azure.microsoft.com/documentation/articles/app-insights-analytics-reference/)
    * @param callback The callback
    */
-  execute(appId: string, body: Models.QueryBody, callback: msRest.ServiceCallback<Models.QueryResults>): void;
+  execute(appId: string, body: Models.QueryBody, callback: msRest.ServiceCallback<Models.QueryResults> | msRest.RequestOptionsBase): void;
   /**
    * @param appId ID of the application. This is Application ID from the API Access settings blade in
    * the Azure portal.

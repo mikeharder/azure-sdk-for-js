@@ -49,7 +49,7 @@ export class VideosOperations {
    * the Video Search API. Do not specify this parameter when calling the Trending Videos API.
    * @param callback The callback
    */
-  search(query: string, callback: msRest.ServiceCallback<Models.Videos>): void;
+  search(query: string, callback: msRest.ServiceCallback<Models.Videos> | Models.VideosSearchOptionalParams): void;
   /**
    * @param query The user's search query string. The query string cannot be empty. The query string
    * may contain [Bing Advanced Operators](http://msdn.microsoft.com/library/ff795620.aspx). For
@@ -93,7 +93,7 @@ export class VideosOperations {
    * the Video Search API. Do not specify this parameter when calling the Trending Videos API.
    * @param callback The callback
    */
-  details(query: string, callback: msRest.ServiceCallback<Models.VideoDetails>): void;
+  details(query: string, callback: msRest.ServiceCallback<Models.VideoDetails> | Models.VideosDetailsOptionalParams): void;
   /**
    * @param query The user's search query string. The query string cannot be empty. The query string
    * may contain [Bing Advanced Operators](http://msdn.microsoft.com/library/ff795620.aspx). For
@@ -127,7 +127,7 @@ export class VideosOperations {
   /**
    * @param callback The callback
    */
-  trending(callback: msRest.ServiceCallback<Models.TrendingVideos>): void;
+  trending(callback: msRest.ServiceCallback<Models.TrendingVideos> | Models.VideosTrendingOptionalParams): void;
   /**
    * @param options The optional parameters
    * @param callback The callback

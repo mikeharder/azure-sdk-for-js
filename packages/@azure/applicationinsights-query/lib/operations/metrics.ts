@@ -66,7 +66,7 @@ export class Metrics {
    * 'billing/telemetryCount', 'customEvents/count'
    * @param callback The callback
    */
-  get(appId: string, metricId: Models.MetricId, callback: msRest.ServiceCallback<Models.MetricsResult>): void;
+  get(appId: string, metricId: Models.MetricId, callback: msRest.ServiceCallback<Models.MetricsResult> | Models.MetricsGetOptionalParams): void;
   /**
    * @param appId ID of the application. This is Application ID from the API Access settings blade in
    * the Azure portal.
@@ -114,7 +114,7 @@ export class Metrics {
    * @param body The batched metrics query.
    * @param callback The callback
    */
-  getMultiple(appId: string, body: Models.MetricsPostBodySchema[], callback: msRest.ServiceCallback<Models.MetricsResultsItem[]>): void;
+  getMultiple(appId: string, body: Models.MetricsPostBodySchema[], callback: msRest.ServiceCallback<Models.MetricsResultsItem[]> | msRest.RequestOptionsBase): void;
   /**
    * @param appId ID of the application. This is Application ID from the API Access settings blade in
    * the Azure portal.
@@ -148,7 +148,7 @@ export class Metrics {
    * the Azure portal.
    * @param callback The callback
    */
-  getMetadata(appId: string, callback: msRest.ServiceCallback<any>): void;
+  getMetadata(appId: string, callback: msRest.ServiceCallback<any> | msRest.RequestOptionsBase): void;
   /**
    * @param appId ID of the application. This is Application ID from the API Access settings blade in
    * the Azure portal.
