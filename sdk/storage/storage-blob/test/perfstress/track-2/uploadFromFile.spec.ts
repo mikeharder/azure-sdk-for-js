@@ -1,7 +1,7 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT license.
-import fs from "fs";
-import util from "util";
+import * as fs from "fs";
+import * as util from "util";
 import { BlockBlobClient } from "@azure/storage-blob";
 const writeFile = util.promisify(fs.writeFile);
 const fileExists = util.promisify(fs.exists);
