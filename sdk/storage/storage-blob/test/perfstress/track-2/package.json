@@ -1,0 +1,19 @@
+{
+  "name": "track-2",
+  "version": "1.0.0",
+  "description": "1. Build the storage-blob package `rush build -t storage-blob`. 2. Navigate to `storage-blob` folder `cd sdk\\storage\\storage-blob\\`. 3. Create a storage account and populate the .env file at `storage\\storage-blob` folder with `STORAGE_CONNECTION_STRING` variables. 4. Run the tests as follows",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/storage-blob": "12.0.0",
+    "@azure/test-utils-perfstress": "file:../../../../../test-utils/perfstress/azure-test-utils-perfstress-1.0.0.tgz",
+    "@types/uuid": "^8.3.0",
+    "uuid": "^8.3.2"
+  },
+  "scripts": {
+    "perfstress-test:node": "ts-node index.spec.ts"
+  },
+  "devDependencies": {}
+}

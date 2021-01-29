@@ -8,7 +8,7 @@ import {
   generateBlobSASQueryParameters,
   BlobSASPermissions,
   BlobClient
-} from "../../../src";
+} from "@azure/storage-blob";
 import { getValueInConnString } from "../../../src/utils/utils.common";
 import { generateUuid } from "@azure/core-http";
 
