@@ -9,7 +9,7 @@ import {
   BlobSASPermissions,
   BlobClient
 } from "@azure/storage-blob";
-import { getValueInConnString } from "../../../src/utils/utils.common";
+import { getValueInConnString } from "./storageTest.spec";
 import { generateUuid } from "@azure/core-http";
 
 interface StorageBlobDownloadTestOptions {
