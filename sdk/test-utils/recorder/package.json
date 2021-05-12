@@ -64,7 +64,7 @@
   "private": true,
   "dependencies": {
     "@azure/core-http": "^1.2.0",
-    "@azure/core-tracing": "1.0.0-preview.11",
+    "@azure/core-tracing": "^1.0.0-alpha",
     "fs-extra": "^8.1.0",
     "nise": "^4.0.3",
     "nock": "^12.0.3",
@@ -72,8 +72,8 @@
     "md5": "^2.2.1"
   },
   "devDependencies": {
-    "@azure/dev-tool": "^1.0.0",
-    "@azure/eslint-plugin-azure-sdk": "^3.0.0",
+    "@azure/dev-tool": "^1.0.0-alpha",
+    "@azure/eslint-plugin-azure-sdk": "^3.0.0-alpha",
     "@rollup/plugin-commonjs": "11.0.2",
     "@rollup/plugin-multi-entry": "^3.0.0",
     "@rollup/plugin-node-resolve": "^8.0.0",

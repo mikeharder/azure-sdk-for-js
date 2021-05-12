@@ -7,7 +7,7 @@
   "dependencies": {
     "@azure/core-http": "^1.2.0",
     "@azure/core-paging": "^1.1.1",
-    "@azure/core-tracing": "1.0.0-preview.11",
+    "@azure/core-tracing": "^1.0.0-alpha",
     "tslib": "^2.0.0"
   },
   "keywords": [
@@ -23,8 +23,8 @@
   "module": "./dist-esm/index.js",
   "types": "./types/iot-device-update.d.ts",
   "devDependencies": {
-    "@azure/dev-tool": "^1.0.0",
-    "@azure/eslint-plugin-azure-sdk": "^3.0.0",
+    "@azure/dev-tool": "^1.0.0-alpha",
+    "@azure/eslint-plugin-azure-sdk": "^3.0.0-alpha",
     "@azure/identity": "^1.1.0",
     "@microsoft/api-extractor": "7.7.11",
     "@types/node": "^8.0.0",

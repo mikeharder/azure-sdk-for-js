@@ -2,7 +2,7 @@
   "name": "@azure/core-asynciterator-polyfill",
   "author": "Microsoft Corporation",
   "sdk-type": "client",
-  "version": "1.0.1",
+  "version": "1.0.1-alpha.20210512.10",
   "description": "Polyfill for IE/Node 8 for Symbol.asyncIterator",
   "tags": [
     "microsoft",
@@ -56,7 +56,7 @@
   "sideEffects": true,
   "private": false,
   "devDependencies": {
-    "@azure/eslint-plugin-azure-sdk": "^3.0.0",
+    "@azure/eslint-plugin-azure-sdk": "^3.0.0-alpha",
     "@types/node": "^8.0.0",
     "eslint": "^7.15.0",
     "prettier": "^1.16.4",

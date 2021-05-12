@@ -6,7 +6,7 @@
   "version": "1.0.0-beta.3",
   "dependencies": {
     "@azure/core-http": "^1.2.0",
-    "@azure/core-tracing": "1.0.0-preview.11",
+    "@azure/core-tracing": "^1.0.0-alpha",
     "tslib": "^2.0.0"
   },
   "keywords": [
@@ -26,8 +26,8 @@
   },
   "devDependencies": {
     "@azure/identity": "^1.1.0",
-    "@azure/dev-tool": "^1.0.0",
-    "@azure/eslint-plugin-azure-sdk": "^3.0.0",
+    "@azure/dev-tool": "^1.0.0-alpha",
+    "@azure/eslint-plugin-azure-sdk": "^3.0.0-alpha",
     "@azure/test-utils-recorder": "^1.0.0",
     "@microsoft/api-extractor": "7.7.11",
     "@types/chai": "^4.1.6",

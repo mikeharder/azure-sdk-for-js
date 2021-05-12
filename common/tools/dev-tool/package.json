@@ -1,6 +1,6 @@
 {
   "name": "@azure/dev-tool",
-  "version": "1.0.0",
+  "version": "1.0.0-alpha.20210512.10",
   "description": "A helpful command for azure-sdk-for-js developers",
   "bin": {
     "dev-tool": "launch.js"

@@ -1,7 +1,7 @@
 {
   "name": "@azure/core-amqp",
   "sdk-type": "client",
-  "version": "2.3.1",
+  "version": "2.3.1-alpha.20210512.10",
   "description": "Common library for amqp based azure sdks like @azure/event-hubs.",
   "author": "Microsoft Corporation",
   "license": "MIT",
@@ -85,7 +85,7 @@
     "util": "^0.12.1"
   },
   "devDependencies": {
-    "@azure/eslint-plugin-azure-sdk": "^3.0.0",
+    "@azure/eslint-plugin-azure-sdk": "^3.0.0-alpha",
     "@microsoft/api-extractor": "7.7.11",
     "@azure/identity": "^1.1.0",
     "@rollup/plugin-commonjs": "11.0.2",
