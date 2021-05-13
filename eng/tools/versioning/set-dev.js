@@ -183,7 +183,9 @@ const updateCommonVersions = async (repoRoot, commonVersionsConfig, package, sea
       if (parsedPackageVersion.major == parsedSearchVersion.major &&
         parsedPackageVersion.minor == parsedSearchVersion.minor &&
         parsedPackageVersion.patch == parsedSearchVersion.patch) {
-        var devVersionRange = "^" + parsedSearchVersion.major + "." + parsedSearchVersion.minor + "." + parsedSearchVersion.patch + "-alpha";
+        var devVersionRange =
+          ">=" + parsedSearchVersion.major + "." + parsedSearchVersion.minor + "." + parsedSearchVersion.patch + "-alpha " +
+          "<" + parsedSearchVersion.major + "." + parsedSearchVersion.minor + "." + parsedSearchVersion.patch + "-alphb";
         allowedAlternativeVersions[package].push(devVersionRange);
         break;
       }
